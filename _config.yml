@@ -9,12 +9,12 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: James Pyle # add your name
 author-img: Profile-Pic.png # add your photo
-about-author: SNHU Grad BS in Computer Science! # add description
+about-author: C# Developer # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: JamesPyle1990 # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: James.Pyle@SNHU.EDU 
+social-email: James.c.pyle@gmail.com 
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
