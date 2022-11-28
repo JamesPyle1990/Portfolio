@@ -1,31 +1,28 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Avenco - Creative Portfolio Theme for Jekyll
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+Avenco is a modern and minimal portfolio theme for Jekyll. This theme was specially created to help show your work in a simple yet creative way. Also, the Avenco theme includes several basic and easily customizable sections such as Works, Testimonials, Blog, Contact and therefore will be a good choice for any freelancer, designer, or developer.
 
-## Demo
+* * *
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+### Demo
 
-The main page would look like this:
+Check the theme in action [Demo](https://avenco.netlify.app/)
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+* * *
 
-The post page would look like this:
+### Deployment
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 
-## Features
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
 
-## Installation:
+* * *
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+### Documentation
 
-## License
+Before using the Avenco theme, please read the attached documentation.
 
-GNU General Public License v3.0
+### Support
+
+<p>If you have any questions, please feel free to contact me by mail <a href="mailto:artemsheludko@tuta.io">Contact</a><p>

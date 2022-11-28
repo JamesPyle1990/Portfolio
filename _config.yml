@@ -1,35 +1,62 @@
-title: James Pyle E-Portfolio
-description: > # this means to ignore newlines until "baseurl:"
-  Hello! Welcome to my portfolio where I demonstrate my skills in Software Engineering, Algorithms and Data Structures and Databases
-permalink: ':title/'
+#-------------------------------
+# General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+url: "https://avenco.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author Settings
-author: James Pyle # add your name
-author-img: Profile-Pic.png # add your photo
-about-author: C# Developer # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: JamesPyle1990 # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: James.c.pyle@gmail.com 
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
+#-------------------------------
 # Build Settings
 markdown: kramdown
+permalink: /:title
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
+  - jekyll-sitemap
+  - jekyll/tagging
 
-paginate: 8
-paginate_path: "/page/:num"
+paginate: 6
+paginate_path: "/blog/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  /:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
