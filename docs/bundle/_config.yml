@@ -31,7 +31,7 @@ twitter_username: jekyllrb
 github_username:  JamesPyle1990
 
 # Build settings
-theme: minima
+theme: Avenco
 plugins:
   - jekyll-feed
 
